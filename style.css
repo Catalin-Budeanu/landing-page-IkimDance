@@ -1030,20 +1030,19 @@ body {
   font-size: 24px;
   line-height: 1.4;
   color: #1e1e1e;
+  width: 328px;
+  text-align: left;
 }
 
 .reactions-card img {
   margin-top: 36px;
+  width: 330px;
 }
 
 .image-reactions {
   image-rendering: -webkit-optimize-contrast;
   shape-rendering: geometricPrecision;
   transform: translateZ(0);
-}
-
-.reactions-768 {
-  text-align: center;
 }
 
 .reactions-card p {
