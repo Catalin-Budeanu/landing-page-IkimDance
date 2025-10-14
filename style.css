@@ -1995,11 +1995,19 @@ input[type='date']::-webkit-calendar-picker-indicator {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 0px;
   }
 
   .logo-contact {
     width: 480px;
+    height: auto;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
   }
 
   .contact-p {
