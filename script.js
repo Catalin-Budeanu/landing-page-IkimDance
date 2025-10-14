@@ -69,10 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   buttons.forEach((button) => {
     button.addEventListener('click', () => {
-      window.open(
-        'https://www.youtube.com/watch?v=G7pQgM917iU&t=113s',
-        '_blank'
-      );
+      window.open('https://youtu.be/qDfyKZJ0jwo?si=WoZVfywEGsTUB9GD', '_blank');
     });
   });
 });
