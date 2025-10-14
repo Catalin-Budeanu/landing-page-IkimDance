@@ -1823,9 +1823,11 @@ input[type='date']::-webkit-calendar-picker-indicator {
   margin-right: auto;
 }
 .clear-svg {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
   image-rendering: -webkit-optimize-contrast;
   shape-rendering: geometricPrecision;
-  transform: translateZ(0);
 }
 
 .footer-p {
