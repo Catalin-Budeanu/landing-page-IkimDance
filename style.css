@@ -171,7 +171,9 @@ body {
   width: 250%;
   height: auto;
   margin-top: -2px;
-  transform: translateX(-20%);
+  transform: translateX(-20%) translateZ(0);
+  image-rendering: -webkit-optimize-contrast;
+  shape-rendering: geometricPrecision;
   display: block;
 }
 
@@ -627,12 +629,22 @@ body {
 .offer-image img {
   position: relative;
   z-index: 2;
-  max-width: 1140px;
-  width: 100%;
+  width: 380px;
   height: auto;
   display: block;
   border-radius: 12px;
   margin-top: 100px;
+
+  image-rendering: -webkit-optimize-contrast;
+  shape-rendering: geometricPrecision;
+  transform: translateZ(0);
+}
+
+@media (min-width: 768px) {
+  .offer-image img {
+    max-width: 1140px;
+    width: 100%;
+  }
 }
 
 .offer-image .particle {
@@ -1023,6 +1035,13 @@ body {
 .reactions-card img {
   margin-top: 36px;
 }
+
+.image-reactions {
+  image-rendering: -webkit-optimize-contrast;
+  shape-rendering: geometricPrecision;
+  transform: translateZ(0);
+}
+
 .reactions-768 {
   text-align: center;
 }
@@ -1285,6 +1304,14 @@ body {
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.price-card img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 .price-card p {
@@ -1795,6 +1822,11 @@ input[type='date']::-webkit-calendar-picker-indicator {
   margin-left: auto;
   margin-right: auto;
 }
+.clear-svg {
+  image-rendering: -webkit-optimize-contrast;
+  shape-rendering: geometricPrecision;
+  transform: translateZ(0);
+}
 
 .footer-p {
   font-weight: 400;
@@ -1924,7 +1956,7 @@ input[type='date']::-webkit-calendar-picker-indicator {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  background-color: #fdf1f7;
+  background-color: #fdf6f1;
   -webkit-box-shadow: 0px -1px 19px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px -1px 19px 0px rgba(0, 0, 0, 0.08);
 }
@@ -2036,7 +2068,7 @@ input[type='date']::-webkit-calendar-picker-indicator {
   justify-content: center;
   align-items: center;
   gap: 6px;
-  background-color: #fdf1f7;
+  background-color: #fdf6f1;
   -webkit-box-shadow: 0px -1px 19px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px -1px 19px 0px rgba(0, 0, 0, 0.04);
 }
