@@ -64,12 +64,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('.button');
+// document.addEventListener('DOMContentLoaded', () => {
+//   const buttons = document.querySelectorAll('.button');
 
-  buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-      window.open('https://youtu.be/qDfyKZJ0jwo?si=WoZVfywEGsTUB9GD', '_blank');
-    });
-  });
-});
+//   buttons.forEach((button) => {
+//     button.addEventListener('click', () => {
+//       window.open('https://youtu.be/qDfyKZJ0jwo?si=WoZVfywEGsTUB9GD', '_blank');
+//     });
+//   });
+// });
